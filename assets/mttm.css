@@ -1,0 +1,70 @@
+#chillpay-form-ewallet ul li.item > input {
+    top: 5px;
+}
+@media(max-width: 390px ){
+    #chillpay-form-internetbanking ul li.item > input,
+    #chillpay-form-ewallet ul li.item > input,
+    .woocommerce-checkout #chillpay-form-internetbanking .chillpay-form-internetbanking-logo-box,
+    .woocommerce-checkout #chillpay-form-ewallet .chillpay-form-ewallet-logo-box,
+    .woocommerce-checkout #payment ul.payment_methods #chillpay-form-ewallet .chillpay-form-ewallet-logo-box img {
+        margin: 0;
+    }
+    #chillpay-form-ewallet ul li.item > input {
+        top: 3px;
+    }
+    .woocommerce-checkout #chillpay-form-internetbanking .chillpay-form-internetbanking-logo-box {
+        padding: 0;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+}
+#chillpay-form-internetbanking ul,
+#chillpay-form-ewallet ul {
+    list-style: none;
+    margin: 0;
+}
+#chillpay-form-internetbanking,
+#chillpay-form-ewallet {
+    border: none;
+    padding: 0;
+}
+.woocommerce-checkout #chillpay-form-internetbanking ul li.item,
+.woocommerce-checkout #chillpay-form-ewallet ul li.item {
+    padding: 0;
+    line-height: normal;
+}
+#chillpay-form-internetbanking ul li.item > input {
+    top: 15px;
+}
+#chillpay-form-internetbanking .chillpay-form-internetbanking-label-box,
+#chillpay-form-ewallet .chillpay-form-ewallet-label-box {
+    display: inline-block;
+    width: auto !important;
+}
+.chillpay-form-internetbanking-label-box span.title {
+    line-height: 2.8;
+}
+.woocommerce-checkout #chillpay-form-internetbanking .chillpay-form-internetbanking-logo-box,
+.woocommerce-checkout #chillpay-form-ewallet .chillpay-form-ewallet-logo-box {
+    padding: 0;
+    /*margin-top: 6px;
+    margin-bottom: 6px;*/
+}
+.woocommerce-page.woocommerce-checkout #payment #place_order {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+#omise-form-internetbanking ul {
+    list-style: none;
+}
+
+.omise-secondary-text {
+    display: none;
+}
+
+@media (min-width: 1280px){ 
+.omise-banks-list .bank-label{
+    width: auto!important;
+}
+}
